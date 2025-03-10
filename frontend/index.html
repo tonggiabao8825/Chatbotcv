@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <title>Jarvis Chatbox</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Sidebar -->
+        <div class="profile-section">
+            <div class="profile-header">
+                <h1 class="profile-name">Tong Gia Bao </h1>
+                <span class="status">online</span>
+            </div>
+            <div class="profile-title"><p>Tong Gia Bao</p><p>a.k.a BaroDev</p></div>
+            <img src="./media/baro1.jpeg" alt="Profile" class="profile-image">
+            <div class="profile-description">
+                <p><i class='bx bx-briefcase'></i> General AI Engineer</p>
+                <p> <i class='bx bx-briefcase'></i> Programming Tutor</p>
+                <p><i class='bx bx-briefcase'></i> Adsense Expert</p>
+            </div>
+            <button class="resgister-button">
+                <i class='bx bx-bookmark'></i> Đăng kí ngay!
+            </button>
+        </div>
+
+        <!-- Chat Box -->
+        <div class="chatbox">
+            <div class="chatarea">
+                <div class="column-header">BaroDev</div>
+                <div class="chat-messages">
+                    <div class="respond">
+                        Hello, my name is BaroDev. I'm a software engineer with AI expertise. Here is my real avatar.Chat with me about anything.
+                    </div>
+                </div>
+                <div class="suggested-messages">
+                    <div class="suggested-message">Bạn tên là gì</div>
+                    <div class="suggested-message">Bạn học ở đâu</div>
+                    <div class="suggested-message">hành trình học của bạn ?</div>
+                </div>
+                <div class="chat-input-container">
+                    <textarea class="chat-input" placeholder="Nhập tin nhắn của bạn..." rows="1"></textarea>
+                    <div class="chat-controls">
+                        <button class="chat-button">
+                            <i class='bx bx-send'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="credit-footer">
+                <p>Dev by <a href="https://www.facebook.com/TongGiaBao.User"><span clas s="dev-credit">BaroDev</span> <i class='bx bx-code-alt'></i></a></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
