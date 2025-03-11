@@ -7,3 +7,5 @@
        envVars:
          - key: AZURE_API_KEY
            value: w8QOfndA9QdkISKjzwb9gOFiYtzuFrXy
+         - key: PORT
+           value: 8001
