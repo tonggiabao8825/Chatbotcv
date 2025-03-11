@@ -1,0 +1,9 @@
+   services:
+     - type: web
+       name: chatboxcv
+       env: python
+       buildCommand: pip install -r backend/requirement.txt
+       startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+       envVars:
+         - key: AZURE_API_KEY
+           value: w8QOfndA9QdkISKjzwb9gOFiYtzuFrXy
